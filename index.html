@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Training</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="training.css">
+</head>
+
+<body>
+    <div class="outliner">
+        <div class="input-div">
+            <div class="group-emp">
+                <label for="nameEmp">Name Employee</label>
+                <input type="text" class="group-control" id="nameEmp">
+            </div>
+            <div class="group-emp">
+                <label for="courseEmp">Course Name</label>
+                <select id="courseEmp" class="group-control">
+                    <option value="Java">Java 25$/day</option>
+                    <option value="PHP">PHP 30$/day</option>
+                    <option value="C++">C++ 40$/day</option>
+                </select>
+            </div>
+            <div class="group-emp">
+                <label for="daysEmp">Days Worked</label>
+                <input type="number" class="group-control" id="daysEmp">
+            </div>
+            <div class="group-emp">
+                <button class="btn btn-warning" onclick="submitEmployee()">Submit Employee</button>
+            </div>
+        </div>
+
+        <div class="display-emp">
+            <table class="table">
+                <thead class="thead-emp">
+                    <tr>
+                        <th>Emp ID</th>
+                        <th>Emp Name</th>
+                        <th>Course Name</th>
+                        <th>Course Provider</th>
+                        <th>Days Worked</th>
+                        <th>Status</th>
+                        <th class="khongbiet">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyemp">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="training.js"></script>
+
+</html>

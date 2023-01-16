@@ -5,7 +5,11 @@
 - Loop statements, condition statements, function.
 - Array.
 - Object.
+- Local Storage.
+
+## Template
+- https://think360studio-media.s3.ap-south-1.amazonaws.com/portfolio-new/employee-training-aod.jpg
 
 ## Sản phẩm
-- Link sản phẩm:
+- Link sản phẩm: https://nquocbao15.github.io/E-Training/
 - Link git: https://github.com/NQuocBao15/E-Training.git

@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.outliner {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.input-div {
+    width: 100%;
+    background-color: rgba(146, 156, 99, 0.471);
+    padding: 13px;
+}
+
+.group-emp {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.group-emp>label {
+    width: 130px;
+}
+
+.group-control {
+    border: none;
+    outline: none;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border: 2px solid rgb(255, 68, 68);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.btn-warning {
+    background-color: rgb(65, 171, 54);
+    color: white;
+    border: 1px solid rgb(18, 87, 23);
+    margin-left: 130px;
+
+}
+
+.btn-warning:hover {
+    background-color: rgba(21, 82, 19, 0.812);
+}
+
+.btn-success:hover{
+    background-color: rgb(42, 248, 42);
+}
+
+.btn-danger:hover{
+    background-color: rgb(246, 42, 42);
+}
+
+.display-request{
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thead-dark {
+    background-color: gray;
+    color: white;
+}
+
+.thead-dark>tr>th {
+    padding: 7px 5px;
+}
+
+.table>tbody>tr>td {
+    text-align: center;
+    padding: 7px 5px;
+}
+
+.table>tbody>tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.table>tbody>tr:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
