@@ -3,17 +3,20 @@
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+}
+
+.body {
+    background-color: rgba(200, 229, 255, 0.687);
 }
 
 .outliner {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0px auto;
 }
 
 .input-div {
     width: 100%;
-    background-color: rgba(146, 156, 99, 0.471);
     padding: 13px;
 }
 
@@ -45,24 +48,24 @@
     margin-right: 2px;
 }
 
+.edit {
+    border: 2px solid rgb(56, 169, 56);
+    background-color: rgba(27, 174, 27, 0.476);
+    border-radius: 20px;
+
+}
+
+.delete {
+    background-color: rgba(221, 58, 58, 0.658);
+    border-radius: 20px;
+}
+
 .btn-warning {
     background-color: rgb(65, 171, 54);
     color: white;
-    border: 1px solid rgb(18, 87, 23);
+    border: 1px solid rgb(11, 79, 15);
     margin-left: 130px;
 
-}
-
-.btn-warning:hover {
-    background-color: rgba(21, 82, 19, 0.812);
-}
-
-.btn-success:hover{
-    background-color: rgb(42, 248, 42);
-}
-
-.btn-danger:hover{
-    background-color: rgb(246, 42, 42);
 }
 
 .display-request{
@@ -74,26 +77,19 @@
     border-collapse: collapse;
 }
 
-.thead-dark {
-    background-color: gray;
-    color: white;
-}
-
-.thead-dark>tr>th {
+.thead-emp>tr>th {
     padding: 7px 5px;
+    background-color: rgba(255, 80, 80, 0.774);
+    border-radius: 10px;
 }
 
 .table>tbody>tr>td {
     text-align: center;
     padding: 7px 5px;
-}
-
-.table>tbody>tr:nth-child(odd) {
-    background-color: lightgray;
+    background-color: aliceblue;
 }
 
 .table>tbody>tr:hover {
-    background-color: gray;
+    background-color: rgba(185, 185, 185, 0.199);
     cursor: pointer;
-    color: white;
 }
