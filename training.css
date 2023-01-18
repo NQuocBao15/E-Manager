@@ -23,7 +23,7 @@
     border: 2px solid black;
     border-radius: 20px;
     width: 500px;
-    background-color: rgba(255, 192, 203, 0.262);
+    background-color: rgba(255, 192, 203, 0.426);
 }
 
 .group-emp {
@@ -94,7 +94,7 @@
 .table>tbody>tr>td {
     text-align: center;
     padding: 7px 5px;
-    background-color: rgba(255, 192, 203, 0.262);
+    background-color: rgba(255, 192, 203, 0.426);
 }
 
 .table>tbody>tr:hover {
