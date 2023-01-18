@@ -1,4 +1,4 @@
-# Build App Employee Training
+# Build App Employee Manager
 
 ## Kiến thức áp dụng
 - HTML/CSS.
