@@ -12,4 +12,4 @@
 
 ## Sản phẩm
 - Link sản phẩm: https://nquocbao15.github.io/E-Manager/
-- Link git: https://github.com/NQuocBao15/E-Training.git
+- Link git: https://github.com/NQuocBao15/E-Manager
