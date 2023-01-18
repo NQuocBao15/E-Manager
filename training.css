@@ -7,7 +7,8 @@
 }
 
 .body {
-    background-color: rgba(200, 229, 255, 0.687);
+    background-image: url(images/R.png);
+    background-size: cover;
 }
 
 .outliner {
@@ -18,6 +19,11 @@
 .input-div {
     width: 100%;
     padding: 13px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    background-color: rgba(255, 192, 203, 0.262);
 }
 
 .group-emp {
@@ -68,8 +74,10 @@
 
 }
 
-.display-request{
+.display-emp{
     width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .table {
@@ -86,7 +94,7 @@
 .table>tbody>tr>td {
     text-align: center;
     padding: 7px 5px;
-    background-color: aliceblue;
+    background-color: rgba(255, 192, 203, 0.262);
 }
 
 .table>tbody>tr:hover {
